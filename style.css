@@ -1,0 +1,50 @@
+video {
+  width: 100%;
+  height: auto;
+
+  aspect-ratio: 16 / 9;
+}
+.header {
+  padding: 70px;
+  text-align: center;
+  background: red;
+  color: white;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", serif;
+}
+h2 {
+  color: #9f0000;
+}
+body {
+  border: 1px solid red;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.foton {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  border: 3px solid red;
+}
+.set-up {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border: 3px solid red;
+}
+.ned {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  border: 3px solid red;
+}
+.hund {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  border: 3px solid red;
+}
+.masterminds {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  border: 3px solid red;
+}
